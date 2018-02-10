@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="contact100-map"></div>
+
+		<div class="wrap-contact100">
+			<div class="contact100-form-title">
+				<span class="contact100-form-title-1">
+					<b>The Book BaseMent!</b>
+				</span>
+
+				<span class="contact100-form-title-2">
+					Spend less.Learn more.
+				</span>
+			</div>
+
+			<form class="contact100-form validate-form" method="post" action="register.php">
+				<div class="wrap-input100 validate-input">
+					<span class="label-input100">Full Name:</span>
+					<input class="input100" type="text" name="name" placeholder="Enter full name" required="Name is required">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Registration Number is required">
+					<span class="label-input100">Registration Number:</span>
+					<input class="input100" type="text" name="reg" placeholder="Enter your registration number" required="Registration Number is required">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">Email:</span>
+					<input class="input100" type="text" name="email" placeholder="Enter email addess" required="Email is required">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Phone is required">
+					<span class="label-input100">Phone:</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter phone number" required="Phone is required">
+					<span class="focus-input100"></span>
+				</div>
+				                <div class="wrap-input100 validate-input">
+					<span class="label-input100">Gender:</span>
+					<div>
+                         <input type="radio" name="gender" value="male" checked> Male 
+                         &nbsp;
+                         <input type="radio" name="gender" value="female"> Female
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+                
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+					<span class="label-input100">Password:</span>
+					<input class="input100" type="password" name="password" placeholder="Enter your password" required="Password is required">
+					<span class="focus-input100"></span>
+				</div>
+
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+					<span class="label-input100">Confirm Password:</span>
+					<input class="input100" type="password" name="cpassword" placeholder="Confirm your password" required="Confirm Password is required">
+					<span class="focus-input100"></span>
+				</div>
+
+               	<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" name="click">
+						<span>
+							Register
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span> 
+					</button> 
+				</div>
+				<div>
+					<br><p>Already registered?&nbsp;<a href="login.html"><u>Sign in</u></a></p></div>
+
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
